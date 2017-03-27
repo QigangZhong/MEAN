@@ -1,0 +1,1 @@
+console.log("support.js进程 " + process.argv[2] + " 执行输出内容" );
