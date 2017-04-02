@@ -1,3 +1,12 @@
+/*CREATE TABLE `user` (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `name` varchar(45) DEFAULT NULL,
+    `birthday` date DEFAULT NULL,
+    `username` varchar(45) DEFAULT NULL,
+    `password` varchar(45) DEFAULT NULL,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;*/
+
 var mysql=require('mysql');
 var connection=mysql.createConnection({
     host:'192.168.77.130',
